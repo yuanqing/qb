@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 48px;
+}
+
+.App {
+  width: 960px;
+  margin: auto;
+}
+
+.Page {
+  display: block;
+  padding-top: 40px;
+  clear: left;
+  page-break-after: always;
+}
+
+.QrCode, .BarCode {
+  display: block;
+  float: left;
+  width: 240px;
+  padding-bottom: 40px;
+}
+
+.BarCode svg,
+.QrCode canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+.BarCode span,
+.QrCode span {
+  display: block;
+  font-size: 20px;
+  font-family: Courier;
+  text-align: center;
+}
+
+.QrCode span {
+  padding-top: 10px;
+}
