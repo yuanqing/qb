@@ -1,46 +1,71 @@
 {
-    "baskets": ["BASKET-1", "BASKET-2", "BASKET-3", "BASKET-4", "BASKET-5", "BASKET-6", "BASKET-7", "BASKET-8"],
-    "products": ["8888351100042", "9556166090085", "8850025001023"],
-    "toteBins": [
-        "TOTEBIN-1",
-        "TOTEBIN-2",
-        "TOTEBIN-3",
-        "TOTEBIN-4",
-        "TOTEBIN-5",
-        "TOTEBIN-6",
-        "TOTEBIN-7",
-        "TOTEBIN-8"
-    ],
-    "shelves": [
-        "1-A1",
-        "1-A2",
-        "1-B1",
-        "1-B2",
-        "1-C1",
-        "1-C2",
-        "1-D1",
-        "1-D2",
-        "1-E1",
-        "1-E2",
-        "2-A1",
-        "2-A2",
-        "2-B1",
-        "2-B2",
-        "2-C1",
-        "2-C2",
-        "2-D1",
-        "2-D2",
-        "2-E1",
-        "2-E2",
-        "3-A1",
-        "3-A2",
-        "3-B1",
-        "3-B2",
-        "3-C1",
-        "3-C2",
-        "3-D1",
-        "3-D2",
-        "3-E1",
-        "3-E2"
+  "Products": {
+    "type": "BarCode",
+    "codes": [
+      "8888351100042",
+      "9556166090085",
+      "8850025001023"
     ]
+  },
+  "Baskets": {
+    "type": "QrCode",
+    "codes": [
+      "BASKET-1",
+      "BASKET-2",
+      "BASKET-3",
+      "BASKET-4",
+      "BASKET-5",
+      "BASKET-6",
+      "BASKET-7",
+      "BASKET-8"
+    ]
+  },
+  "Tote bins": {
+    "type": "BarCode",
+    "codes": [
+      "TOTEBIN-1",
+      "TOTEBIN-2",
+      "TOTEBIN-3",
+      "TOTEBIN-4",
+      "TOTEBIN-5",
+      "TOTEBIN-6",
+      "TOTEBIN-7",
+      "TOTEBIN-8"
+    ]
+  },
+  "Shelves": {
+    "type": "QrCode",
+    "codes": [
+      "1-A1",
+      "1-A2",
+      "1-B1",
+      "1-B2",
+      "1-C1",
+      "1-C2",
+      "1-D1",
+      "1-D2",
+      "1-E1",
+      "1-E2",
+      "2-A1",
+      "2-A2",
+      "2-B1",
+      "2-B2",
+      "2-C1",
+      "2-C2",
+      "2-D1",
+      "2-D2",
+      "2-E1",
+      "2-E2",
+      "3-A1",
+      "3-A2",
+      "3-B1",
+      "3-B2",
+      "3-C1",
+      "3-C2",
+      "3-D1",
+      "3-D2",
+      "3-E1",
+      "3-E2"
+    ]
+  }
 }
