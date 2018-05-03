@@ -32,6 +32,11 @@ h1 {
   padding-bottom: 40px;
 }
 
+.BarCode svg {
+  width: 180px !important;
+  height: 100px !important;
+}
+
 .BarCode svg,
 .QrCode canvas {
   display: block;
